@@ -1,0 +1,390 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+    border: none;
+}
+
+.container {
+    width: 1150px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* #region Header */
+.header {}
+
+.header-container {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-logo {
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    gap: 16px;
+    margin-right: 237px;
+    line-height: 0.93;
+    color: #173a56;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-list-item {
+    padding: 26px 0;
+    display: block;
+    line-height: 1.75;
+    color: #22343d;
+}
+
+.active {
+    font-weight: 600;
+}
+
+.list-btn {
+    display: flex;
+    gap: 21px;
+    margin-left: auto;
+    align-items: center;
+}
+
+.btn-one {
+    border: 1px solid #bcd0e5;
+    border-radius: 4px;
+    width: 105px;
+    height: 42px;
+    background-color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: center;
+    color: #173a56;
+}
+
+.btn-two {
+    background: #02897a;
+    border-radius: 4px;
+    width: 113px;
+    height: 42px;
+    color: #fff;
+}
+
+/* #endregion Header */
+
+/* #region Hero */
+.hero {
+    padding: 25px 0 100px;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.container-wrap {
+    flex-wrap: wrap;
+    padding: 112px 0;
+    margin-right: 35px;
+}
+
+.title-hero {
+    margin-bottom: 18px;
+    max-width: 452px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.5;
+    color: #22343d;
+}
+
+.list-btn-item {
+    display: inline-block;
+    margin-top: 45px;
+    margin-right: 30px;
+}
+
+.btn-hero-first {
+    border-radius: 4px;
+    width: 178px;
+    height: 53px;
+    background: #02897a;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+.btn-hero {
+    width: 164px;
+    height: 23px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #02897a;
+    background-color: #fff;
+}
+
+/* #endregion Hero */
+
+/* #region Icons */
+
+.icons {
+    padding-bottom: 71px;
+    align-items: center;
+}
+
+.icons-container {}
+
+.list-icons-item {
+    display: flex;
+    gap: 30px;
+}
+
+.title {
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #22343d;
+    max-width: 530px;
+    margin: 0 auto;
+}
+
+.list-icons {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62;
+    color: #22343d;
+    width: 255px;
+    height: 204px;
+}
+
+.subtitle {
+    margin-bottom: 13px;
+}
+
+.btn-icons {
+    border-radius: 4px;
+    width: 175px;
+    height: 53px;
+    background: #02897a;
+    display: block;
+    align-items: center;
+    margin: 50px auto auto;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+/* #endregion Icons */
+
+/* #region Management */
+
+.management {
+    margin-bottom: 79px;
+    width: 1150px;
+    border: 4px solid red;
+    margin: 0 auto;
+}
+
+.management-container {
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+.management-wrap {}
+
+.title-management {
+    display: block;
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+}
+
+.wrap-title-management {
+    display: block;
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+    margin-top: 8px;
+}
+
+.par {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #22343d;
+}
+
+.subpar {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.625;
+    color: #22343d;
+}
+
+.list-management {}
+
+.list-item-management {}
+
+.subtitle-management {}
+
+.subtitle,
+.management {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+/* #endregion Management */
+
+.customer {
+    display: flex;
+    padding-top: 79px;
+    gap: 84px;
+    margin-left: 60px;
+}
+
+.list-customer {}
+
+.subcustomer h2 {
+    font-weight: 600;
+    font-size: 16px;
+    color: #22343d;
+    padding-top: 41px;
+    padding-right: 42px;
+}
+
+.title-customer {
+    display: block;
+    font-weight: 700;
+    font-size: 32px;
+    color: #22343d;
+    margin-top: 8px;
+}
+
+.form-div {
+    padding-top: 50px;
+}
+
+.form {
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 52px 50px;
+    width: 868px;
+    height: 670px;
+    margin: auto;
+    background: #fff;
+    text-align: center;
+}
+
+.title-form {
+    font-weight: 700;
+    font-size: 24px;
+
+    line-height: 1.37;
+    letter-spacing: 0em;
+    color: #252b42;
+    margin-bottom: 45px;
+}
+
+.form-input {
+    padding-left: 38px;
+    margin-bottom: 45px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 47px;
+    border: 1px solid #e8e8e8;
+    border-radius: 39px;
+    padding: 19px 20px;
+    width: 768px;
+    height: 54px;
+    background: #f5f5f5;
+}
+
+.form-input::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.06;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
+
+.textarea {
+    margin-bottom: 45px;
+    display: block;
+}
+
+.comment-input {
+    resize: none;
+    background: #f5f5f5;
+    border: 1px solid #e8e8e8;
+    padding: 23px 20px;
+    width: 768px;
+    height: 193px;
+    outline: transparent;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 47px;
+}
+
+.form-button {
+    display: block;
+    border-radius: 35px;
+    padding: 18px 38px;
+    width: 145px;
+    height: 52px;
+    background: #02897a;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    color: #fff;
+}
+
+textarea::placeholder {
+    font-weight: 400;
+    font-size: 15px;
+
+    line-height: 1.06;
+    letter-spacing: 0.01em;
+    color: #22343d;
+}
